@@ -15,6 +15,7 @@
 		26EE8014204133AD00125DEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE8013204133AD00125DEE /* main.m */; };
 		26EE801E204133AD00125DEE /* XPFWaterWaveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE801D204133AD00125DEE /* XPFWaterWaveViewTests.m */; };
 		26EE8029204133AE00125DEE /* XPFWaterWaveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE8028204133AE00125DEE /* XPFWaterWaveViewUITests.m */; };
+		26EE8038204133CB00125DEE /* XPFWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE8037204133CB00125DEE /* XPFWaterWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		26EE8024204133AE00125DEE /* XPFWaterWaveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPFWaterWaveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EE8028204133AE00125DEE /* XPFWaterWaveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPFWaterWaveViewUITests.m; sourceTree = "<group>"; };
 		26EE802A204133AE00125DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26EE8036204133CB00125DEE /* XPFWaterWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPFWaterWaveView.h; sourceTree = "<group>"; };
+		26EE8037204133CB00125DEE /* XPFWaterWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPFWaterWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		26EE8003204133AD00125DEE /* XPFWaterWaveView */ = {
 			isa = PBXGroup;
 			children = (
+				26EE8036204133CB00125DEE /* XPFWaterWaveView.h */,
+				26EE8037204133CB00125DEE /* XPFWaterWaveView.m */,
 				26EE8004204133AD00125DEE /* AppDelegate.h */,
 				26EE8005204133AD00125DEE /* AppDelegate.m */,
 				26EE8007204133AD00125DEE /* ViewController.h */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26EE8038204133CB00125DEE /* XPFWaterWaveView.m in Sources */,
 				26EE8009204133AD00125DEE /* ViewController.m in Sources */,
 				26EE8014204133AD00125DEE /* main.m in Sources */,
 				26EE8006204133AD00125DEE /* AppDelegate.m in Sources */,
